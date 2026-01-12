@@ -1,7 +1,7 @@
 use ethers::prelude::*;
 use std::convert::TryFrom;
 
-// Arbitrum Sepolia 测试网公共 RPC (仅供测试，生产环境建议使用 Alchemy/Infura)
+// Arbitrum Sepolia 测试网
 const RPC_URL: &str = "https://sepolia-rollup.arbitrum.io/rpc";
 
 #[tokio::main]
