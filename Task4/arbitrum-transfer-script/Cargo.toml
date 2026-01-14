@@ -1,0 +1,11 @@
+[package]
+name = "arbitrum-transfer-script"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
+dotenv = "0.15"
+anyhow = "1"
+ethers = { version = "2", features = ["rustls"] }
+
