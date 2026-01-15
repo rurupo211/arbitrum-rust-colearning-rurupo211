@@ -1,0 +1,10 @@
+[package]
+name = "task5_call_contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = { version = "2", features = ["abigen", "rustls"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+eyre = "0.6"
+dotenvy = "0.15"
